@@ -5,7 +5,7 @@
    require('php/connect.php');
    
     if (isset($_POST['First_Name']) && isset($_POST['Password'])){
-      $conn = new mysqli('127.0.0.1', 'adam_rowe', 'Iz5lHo4g', 'gopagoda	');
+      $conn = new mysqli('127.0.0.1', 'marlyn', 'Iz5lHo4g', 'gopagoda	');
       
         $First_Name = $conn->real_escape_string($_POST['First_Name']);
         $Last_Name = $conn->real_escape_string($_POST['Last_Name']);
