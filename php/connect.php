@@ -1,14 +1,10 @@
 <?php
 //database details
-$servername = "192.168.0.2";
-$username = "marlyn";
-$password = "Iz5lHo4g";
-//$port = "3306";
-$dbname = "gopagoda";
+
 
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect('192.168.0.2', 'marlyn', 'Iz5lHo4g', 'gopagoda');
 
 
 // Check connection
