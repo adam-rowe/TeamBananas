@@ -1,0 +1,19 @@
+/*Forums heading */
+.forums-title{
+    margin-top: 20px;
+}
+
+.i-am-centered { 
+    margin: auto; 
+    max-width: 500px;
+    border:1px solid #18bc9c;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #149e82;
+}
+
+body {
+    background-color:#18BC9C;
+}
+
+

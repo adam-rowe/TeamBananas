@@ -1,0 +1,37 @@
+
+/* Sign up heading */
+.signup-title{
+    margin-top: 20px;
+}
+
+
+.i-am-centered { 
+    margin: auto; 
+    max-width: 500px;
+    border:1px solid #18bc9c;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #159e82;
+    
+}
+.signup-p{
+    margin-bottom: 0;
+}
+.drop-down-menu{
+    width: 450px;
+}
+
+.radio-inline2{
+    margin-left: 40px;
+}
+
+.radio-inline3{
+    margin-left: 40px;
+}
+
+.sign-in-sign{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 200px;
+}
