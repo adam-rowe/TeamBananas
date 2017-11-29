@@ -1,0 +1,4 @@
+database2:
+  type: mysql
+  topology: single
+  version: 5.6
