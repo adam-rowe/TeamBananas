@@ -4,7 +4,7 @@ $servername = "192.168.0.2";
 $username = "marlyn";
 $password = "Iz5lHo4g";
 //$port = "3306";
-$dbname = "gopagoda";
+$dbname = "database1";
 
 
 // Create connection
