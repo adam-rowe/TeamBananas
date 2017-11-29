@@ -1,10 +1,10 @@
 <?php
 //database details
-$servername = "192.168.0.2";
-$username = "marlyn";
-$password = "Iz5lHo4g";
+$servername = $_SERVER['DATABASE1_NAME'];
+$username = $_SERVER['DATABASE1_USER'];
+$password = $_SERVER['DATABASE1_PASS'];
 //$port = "3306";
-$dbname = "database1";
+$dbname = $_SERVER['DATABASE1_HOST'];
 
 
 // Create connection
