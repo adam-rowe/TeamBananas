@@ -138,7 +138,7 @@
             
             <form id="chatForm">
                 
-                <input type="text" id="userName" placeholder="Enter your name"><br>
+                <input type="text" id="userName" placeholder="Enter your name"><br>     
                 <textarea name="message" id="message" cols="30" rows="2" placeholder="Type your message"></textarea><br>
                
                 <button class="btn btn-success btn-lg" id="send-messageBtn">Send</button>

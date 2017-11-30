@@ -36,3 +36,8 @@ h2{
     border-radius:50%;
 }
 
+.img-responsive {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}

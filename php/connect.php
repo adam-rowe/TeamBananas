@@ -1,10 +1,10 @@
 <?php
 //database details
-$servername = $_SERVER['DATABASE1_NAME'];
-$username = $_SERVER['DATABASE1_USER'];
-$password = $_SERVER['DATABASE1_PASS'];
-//$port = "3306";
-$dbname = $_SERVER['DATABASE1_HOST'];
+$servername = "192.168.0.2";
+$username = "marlyn";
+$password = "Iz5lHo4g";
+$port = "3306";
+$dbname = "gopagoda";
 
 
 // Create connection
@@ -16,6 +16,9 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
+else{
+    echo("connected");
+}
 
 $sql = "SELECT User_id, First_Name, Last_Name FROM Users";
 $result = mysqli_query($conn, $sql);

@@ -10,7 +10,7 @@
 
 
           // Create connection
-          $conn = mysqli_connect($servername, $username, $password, $port, $dbname);
+          $conn = mysqli_connect($servername, $username, $password, $dbname);
           session_start();        
 	
 	      if(isset($_POST['email']))
