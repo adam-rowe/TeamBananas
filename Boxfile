@@ -1,4 +1,15 @@
-database1:
+build:
+  type: php
+  version: 5.4
+  stability: production
+  exec:
+    - "composer install --no-interaction --prefer-source"
+  lib_dir: vendor
+  reuse_libs: true
+  
+database2:
   type: mysql
   topology: single
   version: 5.6
+  
+  
